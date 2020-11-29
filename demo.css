@@ -1,0 +1,119 @@
+/* 初始化 */
+ul{
+  list-style: none;
+  padding: 0;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+#page{
+  width: 1080px;
+  margin: 0 auto;
+  margin-top: 56px;
+}
+/* 顶部图片 */
+.top{
+  width: 100%;
+  height: 280px;
+  position: relative;
+  background: #F7F7F7;
+}
+.top img{
+  width: 322px;
+  height: 173px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -86px;
+  margin-left: -161px;
+}
+/* 简介 */
+.state{
+  margin-top: 40px;
+}
+.state h2{
+  font-size: 34px;
+  font-family: Roboto-Medium, Roboto;
+  font-weight: bolder;
+  color: #212121;
+  line-height: 40px;
+}
+.state span{
+  font-size: 16px;
+  font-family: Roboto-Regular, Roboto;
+  font-weight: 400;
+  color: #777777;
+  line-height: 24px;
+}
+/* 具体内容 */
+.content{
+  margin-top: 80px;
+  display: flex;
+}
+/* 左侧内容 */
+.content .left-content{
+  width: 196px;
+}
+/* 头部标题 */
+.left-content .title{
+  margin-bottom: 24px;
+}
+.left-content .title h3{
+  font-size: 16px;
+  font-family: Roboto-Bold, Roboto;
+  font-weight: bold;
+  color: #222222;
+  line-height: 19px;
+}
+.left-content .title p{
+  font-size: 12px;
+  line-height: 17px;
+}
+.left-content .title p:first-child{
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #222222;
+}
+.left-content .title p:last-child{
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #000000;  
+}
+/* 分割线 */
+.left-content .title hr{
+  
+} 
+/* 筛选内容 */
+.left-content .cell-item .item {
+  padding: 12px 0;
+  border-bottom: 1px solid #E2E2E2;
+}
+.cell-item .item .item-main{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: Roboto-Regular, Roboto;
+  font-weight: 400;
+  color: #222222;
+  line-height: 16px;
+}
+.item-main i{
+  margin: 0 8px 0 auto;
+  transition: transform .3s;
+}
+.item-main i::before{
+  content: ">";
+  width: 8px;
+  height: 14px;
+}
+.item .item-label{
+  padding: 10px;
+}
+/* 右侧内容 */
+.content .right-content{
+  flex: 1;
+}
